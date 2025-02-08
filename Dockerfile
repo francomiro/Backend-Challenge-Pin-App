@@ -1,8 +1,8 @@
 FROM openjdk:17-jdk-slim
 
-ENV SPRING_DATASOURCE_URL jdbc:mysql://mysql:3306/clientdb
-ENV SPRING_DATASOURCE_USERNAME root
-ENV SPRING_DATASOURCE_PASSWORD admin
+ENV SPRING_DATASOURCE_URL jdbc:mysql://database-1.chwkemuc6vzv.us-east-2.rds.amazonaws.com:3306/clientdb
+ENV SPRING_DATASOURCE_USERNAME admin
+ENV SPRING_DATASOURCE_PASSWORD pinappclave
 ENV SPRING_LOGGING.LEVEL INFO
 
 WORKDIR /app
