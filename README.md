@@ -22,14 +22,14 @@ This is an API created for the PinApp challenge, developed in Java with Spring B
 
 - **Docker**: To create and run the necessary containers.
 
-### Deployment Instructions with Docker
+#### Deployment Instructions with Docker
 
 #### 1. Clone the Repository
 
 #### 2. Edit Configuration
-Before starting the containers, configure the **Dockerfile** with your Database URL:
+Before starting the containers, configure the **Dockerfile** with this Database URL:
 
-    SPRING_DATASOURCE_URL
+    ENV SPRING_DATASOURCE_URL jdbc:mysql://mysql:3306/
 
 #### 3. Start the Containers with Docker Compose
 
