@@ -102,7 +102,7 @@ Note: The age must match the birth date.
       }
 
 
-  **Get Clients List with Estimated Death Date**
+**Get Clients List with Estimated Death Date**
 
 - **URL**: /clientes/listclientes
 - **Method**: GET
